@@ -30,7 +30,7 @@ a { color: inherit; text-decoration: none; }
 .site-header { position: sticky; top: 0; z-index: 20; background: rgba(255,255,255,.96); border-bottom: 1px solid var(--line); backdrop-filter: blur(12px); }
 .nav { height: 78px; display: flex; align-items: center; justify-content: space-between; }
 .brand { display: flex; align-items: center; gap: 12px; }
-.brand-mark { width: 48px; height: 48px; display: grid; place-items: center; border-radius: 50%; background: var(--green); color: var(--gold); border: 3px solid #eee6c8; font-family: Georgia, serif; font-weight: bold; }
+.brand-mark { width: 54px; height: 54px; flex: none; display: grid; place-items: center; border-radius: 50%; background: #fff url("kcc-logo.png") center/cover no-repeat; border: 2px solid #d8b84f; font-size: 0; }
 .brand-name { font-family: Georgia, serif; font-size: 18px; line-height: 1.15; color: var(--green); font-weight: 700; }
 .brand-name small { display:block; font-family: "Segoe UI", sans-serif; font-size: 9px; letter-spacing: 1.7px; color: var(--muted); margin-top: 4px; }
 .nav-links { display:flex; align-items:center; gap: 26px; font-size: 14px; font-weight: 700; }
